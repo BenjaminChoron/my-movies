@@ -1,8 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&display=swap");
+
 :root {
   --color-dark-gray: #222831;
   --color-light-gray: #393e46;
   --color-teal: #00adb5;
   --color-white: #eeeeee;
+
+  --font-heading: "Bricolage Grotesque", sans-serif;
 }
 
 * {

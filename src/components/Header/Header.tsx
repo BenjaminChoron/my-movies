@@ -11,7 +11,7 @@ export default function Header() {
 
   return (
     <header className={styles.header}>
-      <h1 className={styles.header__title}>🎥 My Movies</h1>
+      <h1 className={styles.header__title}>My Movies</h1>
       <form onSubmit={handleSubmit}>
         <input
           className={styles.header__searchInput}
