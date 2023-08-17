@@ -6,7 +6,6 @@ export default function Header() {
   const [search, setSearch] = React.useState("");
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    console.log(search);
     setSearch("");
   };
 
