@@ -7,6 +7,8 @@ First run `npm install` to install all dependencies.
 Create your local .env file running this in your terminal `cp .env.ref .env.local`\
 Change the variables with your own informations.
 
+You can get your own OMDb API Key here : [http://www.omdbapi.com/](http://www.omdbapi.com/)
+
 ## ⚙️ Run application
 
 `npm start`
