@@ -1,0 +1,12 @@
+.moviesList {
+  height: 100%;
+  padding: 0 1rem;
+  overflow-y: scroll;
+}
+
+.moviesList__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+}

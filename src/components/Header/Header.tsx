@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./Header.module.css";
 
-export default function Header() {
+function Header() {
   const [search, setSearch] = React.useState("");
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -27,3 +27,5 @@ export default function Header() {
     </header>
   );
 }
+
+export default Header;
