@@ -8,10 +8,12 @@ function MoviesList({
   movies,
   isLoading,
   error,
+  onItemClicked,
 }: {
   movies: Movie[];
   isLoading: boolean;
   error: string;
+  onItemClicked: (movie: Movie) => void;
 }) {
   const moviesList = [...movies];
 
@@ -21,7 +23,11 @@ function MoviesList({
       {!isLoading && !error && (
         <ul className={styles.moviesList__list}>
           {moviesList.map((movie) => (
-            <MovieItem key={movie.imdbID} movie={movie} />
+            <MovieItem
+              key={movie.imdbID}
+              movie={movie}
+              onItemClicked={onItemClicked}
+            />
           ))}
         </ul>
       )}

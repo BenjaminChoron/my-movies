@@ -1,0 +1,47 @@
+.movieDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.movieDetails__box {
+  display: flex;
+  align-items: flex-start;
+}
+
+.movieDetails__img {
+  border-radius: 1rem;
+}
+
+.movieDetails__infos {
+  width: 100%;
+  display: flex;
+  flex: grow;
+  flex-direction: column;
+  padding: 0.5rem 1rem;
+}
+
+.movieDetails__title {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.movieDetails__group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.movieDetails span {
+  margin-bottom: 1rem;
+}
+
+.movieDetails__genre {
+  font-style: italic;
+}
+
+.movieDetails__ratings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
