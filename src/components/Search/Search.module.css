@@ -1,0 +1,30 @@
+.searchInput {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  background-color: var(--color-white);
+  color: var(--color-dark-gray);
+}
+.searchInput:focus {
+  box-shadow: 0 0 0 2px var(--color-teal);
+}
+
+.searchButton {
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  background-color: var(--color-teal);
+  color: var(--color-white);
+  font-weight: 700;
+  cursor: pointer;
+}
+.searchButton:hover {
+  background-color: var(--color-teal-hover);
+}
+.searchButton:focus {
+  background-color: var(--color-teal-hover);
+  box-shadow: 0 0 0 2px var(--color-teal);
+}

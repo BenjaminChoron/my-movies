@@ -1,5 +1,6 @@
 .movieItem {
-  height: 220px;
+  width: 100%;
+  height: 150px;
   display: flex;
   margin: 1rem auto;
   border-radius: 1rem;
@@ -18,34 +19,15 @@
 }
 
 .movieItem__infos {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  padding: 0.5rem 1rem;
-  width: 100%;
-}
-
-.movieItem__group {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  margin: 0.5rem auto;
+  padding: 0.5rem 1rem;
 }
 
 .movieItem__title {
+  margin-bottom: 1rem;
   font-size: 1.5rem;
-}
-
-.movieItem__genres {
-  font-style: italic;
-}
-
-.movieItem__staring {
-  margin: 0.3rem 0;
-}
-
-.movieItem__description {
-  padding: 0.5rem;
-  font-size: 1rem;
 }

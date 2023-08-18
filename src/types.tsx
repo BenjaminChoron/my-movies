@@ -1,4 +1,4 @@
-export interface Movie {
+export interface MovieItem {
   id: number;
   title: string;
   imgUrl: string;
@@ -7,4 +7,12 @@ export interface Movie {
   rating: number;
   genres: string[];
   year: number;
+}
+
+export interface Movie {
+  Poster: string;
+  Title: string;
+  Type: string;
+  Year: string;
+  imdbID: string;
 }
