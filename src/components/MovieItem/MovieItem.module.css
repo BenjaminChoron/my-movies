@@ -43,6 +43,7 @@
 .movieItem__button:hover,
 .movieItem__button:focus {
   background-color: var(--color-teal-hover);
+  color: var(--color-white);
   transform: translateX(0.2rem);
 }
 .movieItem__button:focus {

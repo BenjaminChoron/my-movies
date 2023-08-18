@@ -7,6 +7,8 @@
   color: var(--color-dark-gray);
 }
 .searchInput:focus {
+  background-color: var(--color-teal-hover);
+  color: var(--color-white);
   box-shadow: 0 0 0 2px var(--color-teal);
 }
 

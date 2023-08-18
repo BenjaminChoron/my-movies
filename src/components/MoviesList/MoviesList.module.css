@@ -1,7 +1,12 @@
 .moviesList {
   height: 100%;
   padding: 0 1rem;
+  border-radius: 1rem;
   overflow-y: scroll;
+}
+.moviesList:focus {
+  outline: none;
+  background-color: var(--color-teal-hover);
 }
 
 .moviesList__list {
